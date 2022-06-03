@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+.parallax{
+    background-image: url("media/hoodie.jpeg");
+    background-color: rgba(150, 140, 140, 0.699);
+    background-blend-mode:screen;
+    /* min-height: 500px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+}
+.scroll {
+    position: relative;
+    font-family: sans-serif;
+    height: 65px;
+    width: 290px;
+    border: 2px solid rgb(37, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(37, 32, 32);
+    top: 50%; 
+    font-weight: bolder; 
+    letter-spacing: 6px;
+}
+
+.parallaxX{
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+    /* background: black; */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+ }
+ 
+ .para{
+   letter-spacing: 5px;
+   font-family: sans-serif;
+   font-size: 20px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+ .par{
+    padding-top: 30px ;
+    position: absolute;
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    color: gray;
+    letter-spacing: 1px;
+ }
+ .paralla{
+    background-image: url("media/beach.jpeg");
+    /* background-color: rgb(63, 62, 62, 0.699); */
+    background-color: rgba(150, 140, 140, 0.699);
+    background-blend-mode:screen;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+}
+.lessH{
+    position: relative;
+    font-family: sans-serif;
+    height: 65px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 40%; 
+    font-weight: bolder; 
+    letter-spacing: 7px;
+}
+
+.parall{
+    height: 150px;
+    width: 100%;
+    background: rgba(21, 27, 46, 0.877); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* background-color: rgb(25, 42, 73); */
+}
+.lax{
+   position: absolute;
+    font-family: sans-serif;
+    height: 65px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.paral{
+    background-image: url("media/cameraBlack.jpeg");
+    /* background-color: rgb(63, 62, 62, 0.699); */
+    background-color: rgba(150, 140, 140, 0.699);
+    background-blend-mode:screen;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+}
+.lastScroll {
+    position: relative;
+    font-family: sans-serif;
+    height: 65px;
+    width: 120px;
+    border: 2px solid rgb(37, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(37, 32, 32);
+    top: 50%; 
+    font-weight: bolder; 
+    letter-spacing: 6px;
+}
+
+ @media screen and (max-width: 768px){
+     .parallaxX{
+         min-height: 400px;
+     }
+    
+ }
